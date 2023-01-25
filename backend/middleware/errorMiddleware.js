@@ -7,6 +7,9 @@ const errorHandler = (err,req, res, next) => {
     })
 }
 
+//! Middleware is a function that runs during the request- respond cycle
+//! when we send a request to an endpoint, the function we've created will run
+
 module.exports = {
     errorHandler,
 }
